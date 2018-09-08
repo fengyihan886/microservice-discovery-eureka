@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - docker0
+        - veth.*
+      OR
+      perferredNetworks:
+        - 192.168
+        - 10.0
+      OR
+      useOnlySiteLocalInterfaces: true
+      
