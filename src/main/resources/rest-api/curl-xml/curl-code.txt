@@ -1,5 +1,0 @@
-1   curl-模拟post请求发送xml报文:
-    cat ./rest-api-demo.xml | curl -v -X POST -H "Content-type: application/xml" -d @- http://127.0.0.1:8761/eureka/apps/rest-api-demo
-
-2   curl-模拟delete请求注销实例:
-    curl -v -X DELETE http://127.0.0.1:8761/eureka/apps/rest-api-demo/itmuch:rest-api-demo:9000
